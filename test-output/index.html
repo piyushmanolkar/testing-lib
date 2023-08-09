@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\sangria-web-testing\testng_NotLoggedIn.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 8 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_NewArrival(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_NewArrival(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_ProductQuickviewVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_ProductQuickviewVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_SendAMessageFunctionalityGuestUser(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_SendAMessageFunctionalityGuestUser(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_aboveAboutUsSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_aboveAboutUsSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_askOurExpertSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_askOurExpertSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_endToEndGuestScenarioByClickingProductCartIconGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_endToEndGuestScenarioByClickingProductCartIconGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_endToEndGuestScenarioByClickingProductTileGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_endToEndGuestScenarioByClickingProductTileGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_endToEndGuestScenarioByClickingQuickViewGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_endToEndGuestScenarioByClickingQuickViewGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_CartFucntionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_CartFucntionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_OurStorySection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_OurStorySection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_PageHeaderVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_PageHeaderVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_SearchFucntionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_SearchFucntionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_UserFunctionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_UserFunctionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_discountVoucherSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_discountVoucherSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePage_shoutOutFromCustomers(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">HomePage_shoutOutFromCustomers(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dotKonnekt.tests.HomePageTest" class="method navigator-link" hash-for-method="TitleVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">TitleVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.dotKonnekt.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_NewArrival(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_NewArrival(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_NewArrival</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a1dc264caa685ab3a5630c80f96f7252, getElementAttribute {id=62D4D82414D886ABBAB06C95E4BC07F3_element_43, name=style}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\piyus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59880}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59880/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a1dc264caa685ab3a5630c80f96f7252)] -&gt; xpath: //*[@id=&apos;sg-carouselSwiperSlide&apos;]/div/div[1]]
+Session ID: a1dc264caa685ab3a5630c80f96f7252
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:158)
+	at com.dotKonnekt.pages.HomePage.newArrival(HomePage.java:72)
+	at com.dotKonnekt.tests.HomePageTest.HomePage_NewArrival(HomePageTest.java:124)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_ProductQuickviewVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_ProductQuickviewVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_ProductQuickviewVerification</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;sg-counterCountInput&apos;]&quot;}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [56bb091dc2e17c1a81ad7d6746125995, findElement {using=xpath, value=//*[@id=&apos;sg-counterCountInput&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\piyus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60003/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 56bb091dc2e17c1a81ad7d6746125995
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.dotKonnekt.pages.HomePage.ByQuickView(HomePage.java:636)
+	at com.dotKonnekt.tests.HomePageTest.HomePage_ProductQuickviewVerification(HomePageTest.java:138)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_SendAMessageFunctionalityGuestUser(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_SendAMessageFunctionalityGuestUser(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_SendAMessageFunctionalityGuestUser</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;sg-askExpertModalTypography4&apos;]&quot;}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b68090eab099dfbe1cd720739fb4b63a, findElement {using=xpath, value=//*[@id=&apos;sg-askExpertModalTypography4&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\piyus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60096}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60096/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b68090eab099dfbe1cd720739fb4b63a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.dotKonnekt.pages.HomePage.sendAMessage(HomePage.java:386)
+	at com.dotKonnekt.tests.HomePageTest.HomePage_SendAMessageFunctionalityGuestUser(HomePageTest.java:170)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_aboveAboutUsSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_aboveAboutUsSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_aboveAboutUsSection</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@id=&apos;sg-courseStoryImage&apos;]&quot;}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b09f867015bd9bf37656264d3ea097c, findElement {using=xpath, value=//img[@id=&apos;sg-courseStoryImage&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\piyus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60201/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b09f867015bd9bf37656264d3ea097c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.dotKonnekt.pages.HomePage.aboveAboutSection(HomePage.java:448)
+	at com.dotKonnekt.tests.HomePageTest.HomePage_aboveAboutUsSection(HomePageTest.java:205)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_askOurExpertSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_askOurExpertSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_askOurExpertSection</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                  <div class="stack-trace">java.lang.AssertionError: East icon is enabled it should be disabled expected [color: rgb(0,0,0);] but found [color: rgb(0, 0, 0);]
+	at com.dotKonnekt.pages.HomePage.askOurExpert(HomePage.java:275)
+	at com.dotKonnekt.tests.HomePageTest.HomePage_askOurExpertSection(HomePageTest.java:160)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_endToEndGuestScenarioByClickingProductCartIconGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_endToEndGuestScenarioByClickingProductCartIconGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_endToEndGuestScenarioByClickingProductCartIconGuestUSer</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [69220320cb6465ca6c52a5217b9ad045, isElementEnabled {id=3E99330F1C0F7CFF34B20B09DF155469_element_47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\piyus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60328}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60328/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (69220320cb6465ca6c52a5217b9ad045)] -&gt; xpath: //*[@id=&apos;sg-productCardBlogBoxes&apos;]/button]
+Session ID: 69220320cb6465ca6c52a5217b9ad045
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isEnabled(RemoteWebElement.java:196)
+	at com.dotKonnekt.pages.HomePage.ByCartIcon(HomePage.java:579)
+	at com.dotKonnekt.tests.HomePageTest.HomePage_endToEndGuestScenarioByClickingProductCartIconGuestUSer(HomePageTest.java:256)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_endToEndGuestScenarioByClickingProductTileGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_endToEndGuestScenarioByClickingProductTileGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_endToEndGuestScenarioByClickingProductTileGuestUSer</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be &quot;Checkout&quot;. Current title: &quot;Product&quot; (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\piyus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60369}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60369/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6e23532f7a1682152de8c373d3f0031
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.dotKonnekt.actionDrivers.Action.explicitWaitbyTitle(Action.java:787)
+	at com.dotKonnekt.pages.CheckoutPage.availabiltyStock(CheckoutPage.java:171)
+	at com.dotKonnekt.tests.HomePageTest.HomePage_endToEndGuestScenarioByClickingProductTileGuestUSer(HomePageTest.java:238)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_endToEndGuestScenarioByClickingQuickViewGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_endToEndGuestScenarioByClickingQuickViewGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_endToEndGuestScenarioByClickingQuickViewGuestUSer</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;sg-counterCountInput&apos;]&quot;}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7116b0499d7ad4c4d49a368906ea7afd, findElement {using=xpath, value=//*[@id=&apos;sg-counterCountInput&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\piyus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60414}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60414/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7116b0499d7ad4c4d49a368906ea7afd
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.dotKonnekt.pages.HomePage.ByQuickView(HomePage.java:636)
+	at com.dotKonnekt.tests.HomePageTest.HomePage_endToEndGuestScenarioByClickingQuickViewGuestUSer(HomePageTest.java:297)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dotKonnekt.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_CartFucntionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_CartFucntionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_CartFucntionalityVerification</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_OurStorySection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_OurStorySection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_OurStorySection</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_PageHeaderVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_PageHeaderVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_PageHeaderVerification</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_SearchFucntionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_SearchFucntionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_SearchFucntionalityVerification</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_UserFunctionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_UserFunctionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_UserFunctionalityVerification</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_discountVoucherSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_discountVoucherSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_discountVoucherSection</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage_shoutOutFromCustomers(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- HomePage_shoutOutFromCustomers(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">HomePage_shoutOutFromCustomers</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TitleVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)">
+                  </a> <!-- TitleVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech) -->
+                  <span class="method-name">TitleVerification</span>
+                  <span class="parameters">(Home Page,drupalpoc,Chrome,https://drupalpoc.sangria.tech)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\sangria-web-testing\testng_NotLoggedIn.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite configfailurepolicy=&quot;continue&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.dotKonnekt.utility.ListenersClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;NotLoggedIn&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;NotLoggedIn&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dotKonnekt.tests.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NotLoggedIn --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">NotLoggedIn (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">NotLoggedIn</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_CartFucntionalityVerification</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_NewArrival</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_OurStorySection</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_PageHeaderVerification</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_ProductQuickviewVerification</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_SearchFucntionalityVerification</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_SendAMessageFunctionalityGuestUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_UserFunctionalityVerification</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_aboveAboutUsSection</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_askOurExpertSection</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_discountVoucherSection</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_endToEndGuestScenarioByClickingProductCartIconGuestUSer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_endToEndGuestScenarioByClickingProductTileGuestUSer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_endToEndGuestScenarioByClickingQuickViewGuestUSer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePage_shoutOutFromCustomers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TitleVerification</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'HomePage_SendAMessageFunctionalityGuestUser')
+data.setCell(0, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(0, 3, 28971);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'HomePage_ProductQuickviewVerification')
+data.setCell(1, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(1, 3, 24790);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'HomePage_endToEndGuestScenarioByClickingQuickViewGuestUSer')
+data.setCell(2, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(2, 3, 23769);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'HomePage_aboveAboutUsSection')
+data.setCell(3, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(3, 3, 16318);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'HomePage_endToEndGuestScenarioByClickingProductTileGuestUSer')
+data.setCell(4, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(4, 3, 12506);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'HomePage_OurStorySection')
+data.setCell(5, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(5, 3, 8237);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'HomePage_endToEndGuestScenarioByClickingProductCartIconGuestUSer')
+data.setCell(6, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(6, 3, 7185);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'HomePage_UserFunctionalityVerification')
+data.setCell(7, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(7, 3, 6086);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'HomePage_CartFucntionalityVerification')
+data.setCell(8, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(8, 3, 5399);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'HomePage_SearchFucntionalityVerification')
+data.setCell(9, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(9, 3, 4978);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'HomePage_NewArrival')
+data.setCell(10, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(10, 3, 4832);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'HomePage_askOurExpertSection')
+data.setCell(11, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(11, 3, 4813);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'HomePage_PageHeaderVerification')
+data.setCell(12, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(12, 3, 3752);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'HomePage_discountVoucherSection')
+data.setCell(13, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(13, 3, 3682);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TitleVerification')
+data.setCell(14, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(14, 3, 3486);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'HomePage_shoutOutFromCustomers')
+data.setCell(15, 2, 'com.dotKonnekt.tests.HomePageTest')
+data.setCell(15, 3, 3453);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.dotKonnekt.tests.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">HomePage_SendAMessageFunctionalityLoggedInUser</span>
+                <br/>
+                <span class="ignored-method-name">HomePage_endToEndGuestScenarioByClickingProductTileLoggedIn</span>
+                <br/>
+                <span class="ignored-method-name">BrowserStack</span>
+                <br/>
+                <span class="ignored-method-name">HomePage_endToEndGuestScenarioByClickingProductCartIconLoggedUSer</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dotKonnekt.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">loadConfig</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">HomePage_CartFucntionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">1331 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6737 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">HomePage_NewArrival(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">6987 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12013 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">HomePage_OurStorySection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">12191 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">HomePage_PageHeaderVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">20643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">HomePage_ProductQuickviewVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">24564 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49549 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">HomePage_SearchFucntionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">49710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54688 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">HomePage_SendAMessageFunctionalityGuestUser(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">54827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83988 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">HomePage_UserFunctionalityVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">84132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90219 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">HomePage_aboveAboutUsSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">90378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106873 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">HomePage_askOurExpertSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">107012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">111947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">HomePage_discountVoucherSection(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">112087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">115770 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">HomePage_endToEndGuestScenarioByClickingProductCartIconGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">115891 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">123297 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">HomePage_endToEndGuestScenarioByClickingProductTileGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">123430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">136183 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">HomePage_endToEndGuestScenarioByClickingQuickViewGuestUSer(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">136308 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">160248 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">HomePage_shoutOutFromCustomers(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">160397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">163852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TitleVerification(Home Page, drupalpoc, Chrome, https://drupalpoc.sangria.tech)</span>
+                <span class="method-start">163977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">167464 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">flush</span>
+                <span class="method-start">167649 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
